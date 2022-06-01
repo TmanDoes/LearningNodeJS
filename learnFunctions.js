@@ -24,4 +24,4 @@ function HelloWorld(firstName){
 
 }
 
-module.exports = HelloWorld
+module.exports = HelloWorld;
