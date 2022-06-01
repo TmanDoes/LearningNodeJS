@@ -1,6 +1,6 @@
 'use strict';
 
-const HelloWorld = require('./learnFunctions');
+const {HelloWorld,Madlib} = require('./learnFunctions');
 const  {Add2Num,Subtract2Num,Multi2Num,Divi2num,Circumfrence,CircumfrenceGivenRadius} = require('./mathFuncs');
 const _name = (process.argv[0]==='undefined') ? process.argv[0] : 'Bob Smith';
 
@@ -18,6 +18,7 @@ const _name = (process.argv[0]==='undefined') ? process.argv[0] : 'Bob Smith';
     const msg9 = Divi2num(45,5);
     const msg10 = Circumfrence(8);
     const msg11 = CircumfrenceGivenRadius(2.82842712474619);
+    const msg12 = Madlib('German shepard','tail', 'great');
 
     console.log(`
         Message 1: ${message}
@@ -31,5 +32,6 @@ const _name = (process.argv[0]==='undefined') ? process.argv[0] : 'Bob Smith';
         divide 45/5: ${msg9}
         circumfrence : ${msg10}
         circumfrence radius 4: ${msg11}
+        Madlibs ${msg12}
     `);
 //})();

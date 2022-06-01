@@ -24,4 +24,14 @@ function HelloWorld(firstName){
 
 }
 
-module.exports = HelloWorld;
+function Madlib(dogBreed,bodyPart,noun){
+    let passage = `My favorite dog is ${dogBreed}. I  like the way their ${bodyPart} shakes when
+    they get so excited.  Dog's truly are mans best ${noun}.`
+
+    return passage;
+}
+
+module.exports = {
+    HelloWorld,
+    Madlib
+};
