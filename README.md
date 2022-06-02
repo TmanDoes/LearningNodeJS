@@ -1,2 +1,1 @@
-# day1
-learning nodejs
+# Learning NodeJS
